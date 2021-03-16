@@ -1,0 +1,5 @@
+pdfkit
+xhtml2pdf
+pandas
+sqlalchemy
+googleapiclient

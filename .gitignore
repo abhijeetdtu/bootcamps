@@ -1,0 +1,6 @@
+token.pickle
+credentials.json
+__pycache__
+registration.py
+cert_bkp
+*.csv
