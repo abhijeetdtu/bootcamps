@@ -52,6 +52,7 @@ NOTE : All commands below to be executed from root of the cloned repository i.e 
       - Eligibility is determined by `./bootcamps/bootcamps/sql/fetch_cert_send.sql`
         - This generally uses 90% as the threshold for the bootcamps
         - For stats course there is additional check for `comprehensive test` completion
+    - Clear out (and backup) the contents of folder `./bootcamps/bootcamps/certgen/outputs`
     - Run : `python -m bootcamps.bl.cert_send`
       - This will populate certificates in `./bootcamps/bootcamps/certgen/outputs`
       - The `pdf` versions are sent out to the students manually

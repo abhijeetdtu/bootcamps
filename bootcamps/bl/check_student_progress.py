@@ -1,5 +1,12 @@
 import pandas as pd
+from bootcamps.bl.dbsetup import DBConnector
 
+dbcon = DBConnector()
+df = (pd.read_sql(""" select * from grades_tracker""" , dbcon.engine))
+
+df.head()
+
+df.to_csv("./grades_tracker_export.csv")
 from bootcamps.bl.dbsetup import DBConnector
 
 class CheckStudentProgress:

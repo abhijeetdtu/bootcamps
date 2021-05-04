@@ -3,4 +3,5 @@ credentials.json
 __pycache__
 registration.py
 cert_bkp
+certgen/outputs
 *.csv
